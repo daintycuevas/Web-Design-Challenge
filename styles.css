@@ -1,0 +1,50 @@
+
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+    background: lightgray;
+  }
+
+.display-1 { 
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(12, 196, 202);
+    padding: 40px;
+
+}
+
+.font-weight-lighter {
+    word-break: keep-all;
+}
+  /* h3 {
+    font-size: 30px;
+  } */
+   */
+  /* Giving our navbar some padding and a background color */
+.navbar {
+    padding: 10px;
+    background: white;
+  }
+
+/* Giving the .post element margin on 3 sides */
+.box-1 {
+    background: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-right: 50px;
+    margin-left: 100px; */
+  }
+
+.box-2 {
+    background: white;
+    margin-top: 100px;
+    /* margin-right: 50px;
+    margin-left: 100px; */
+  }
+
+.img-landing {
+    width: 50%;
+    height: 50%;
+    float: left;
+    overflow: auto;
+}
