@@ -13,6 +13,15 @@ body {
 
 }
 
+.display-2 { 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 30px;
+
+}
+
 .font-weight-lighter {
     word-break: keep-all;
 }
@@ -29,7 +38,7 @@ body {
 /* Giving the .post element margin on 3 sides */
 .box-1 {
     background: white;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 100px;
     /* margin-right: 50px;
     margin-left: 100px; */
@@ -37,14 +46,52 @@ body {
 
 .box-2 {
     background: white;
-    margin-top: 100px;
-    /* margin-right: 50px;
-    margin-left: 100px; */
+    width: 350px;
+    height: 90%;
+    margin-top: 60px;
+    position: absolute;
+    margin-bottom: 100px;
+    
   }
 
 .img-landing {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     float: left;
-    overflow: auto;
+}
+
+.text-landing {
+
+}
+
+.Fig1-thumbnail {
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+
+.Fig2-thumbnail {
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+}
+
+.Fig3-thumbnail {
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  top: 220px;
+  left: 20px;
+}
+
+.Fig4-thumbnail {
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  top: 220px;
+  right: 10px;
 }
