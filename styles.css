@@ -4,12 +4,18 @@ body {
     background: lightgray;
   }
 
-.display-1 { 
-    font-family: "Times New Roman", Times, serif;
-    font-size: 50px;
-    font-weight: bold;
-    color: rgb(12, 196, 202);
-    padding: 40px;
+/* Giving our navbar some padding and a background color */
+.navbar {
+  padding: 10px;
+  background: white;
+}
+
+h1 { 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 40px;
 
 }
 
@@ -23,26 +29,24 @@ body {
 }
 
 .font-weight-lighter {
-    word-break: keep-all;
-}
-  /* h3 {
-    font-size: 30px;
-  } */
-   */
-  /* Giving our navbar some padding and a background color */
-.navbar {
-    padding: 10px;
-    background: white;
-  }
+  word-break: keep-all;
 
-/* Giving the .post element margin on 3 sides */
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 40px;
+}
+
+/* .box 1 and 2 elements */
 .box-1 {
     background: white;
     margin-top: 60px;
     margin-bottom: 100px;
-    /* margin-right: 50px;
-    margin-left: 100px; */
-  }
+}
 
 .box-2 {
     background: white;
@@ -50,9 +54,9 @@ body {
     height: 90%;
     margin-top: 60px;
     position: absolute;
-    margin-bottom: 100px;
-    
-  }
+    margin-bottom: 100px;  
+}
+
 
 .img-landing {
     width: 40%;
@@ -95,3 +99,100 @@ body {
   top: 220px;
   right: 10px;
 }
+
+
+/* #############PAGE 2: Visualizations############## */
+
+.box-3 {
+  background: white;
+  width: 1100px;
+  height: 1300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* .my-4 {
+  font-family: "Arial";
+  font-size: 20px; 
+  position: absolute;
+  top: 1000px;
+} */
+
+.Fig1-comparison {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+
+.fig1-hr { 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 10px;
+  position: absolute;
+  top: 30px;
+  left: 170px;
+}
+
+.Fig2-comparison {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 80px;
+  left: 600px;
+}
+
+.fig2-hr { 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 0px;
+  position: absolute;
+  top: 30px;
+  left: 800px;
+}
+
+.Fig3-comparison {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 575px;
+  left: 20px;
+}
+
+.fig3-hr {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 0px;
+  position: absolute;
+  top: 500px;
+  left: 80px;
+}
+
+.Fig4-comparison {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 575px;
+  left: 600px;
+}
+
+.fig4-hr { 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 0px;
+  position: relative;
+  top: 500px;
+  /* right: 20px; */
+  left: 775px;
+}
+
+/* #############PAGE 3: Visualizations############## */
