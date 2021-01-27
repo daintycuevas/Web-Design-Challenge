@@ -132,9 +132,9 @@ h2 {
   font-weight: bold;
   color: rgb(12, 196, 202);
   padding: 10px;
-  position: absolute;
+  position: relative;
   top: 30px;
-  left: 170px;
+  left: 130px;
 }
 
 .Fig2-comparison {
@@ -150,17 +150,17 @@ h2 {
   font-size: 25px;
   font-weight: bold;
   color: rgb(12, 196, 202);
-  padding: 0px;
-  position: absolute;
-  top: 30px;
-  left: 800px;
+  padding: 10px;
+  position: relative;
+  top: -25px;
+  left: 760px;
 }
 
 .Fig3-comparison {
   width: 500px;
   height: 400px;
   position: absolute;
-  top: 575px;
+  top: 455px;
   left: 20px;
 }
 
@@ -171,15 +171,15 @@ h2 {
   color: rgb(12, 196, 202);
   padding: 0px;
   position: absolute;
-  top: 500px;
-  left: 80px;
+  top: 400px;
+  left: 200px;
 }
 
 .Fig4-comparison {
   width: 500px;
   height: 400px;
   position: absolute;
-  top: 575px;
+  top: 455px;
   left: 600px;
 }
 
@@ -190,9 +190,8 @@ h2 {
   color: rgb(12, 196, 202);
   padding: 0px;
   position: relative;
-  top: 500px;
-  /* right: 20px; */
-  left: 775px;
+  top: 400px;
+  left: 760px;
 }
 
 /* #############PAGE 3: Visualizations############## */
