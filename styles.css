@@ -16,7 +16,6 @@ h1 {
   font-weight: bold;
   color: rgb(12, 196, 202);
   padding: 40px;
-
 }
 
 .display-2 { 
@@ -25,21 +24,12 @@ h1 {
   font-weight: bold;
   color: rgb(12, 196, 202);
   padding: 30px;
-
 }
 
 .font-weight-lighter {
   word-break: keep-all;
-
 }
 
-h2 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(12, 196, 202);
-  padding: 40px;
-}
 
 /* .box 1 and 2 elements */
 .box-1 {
@@ -194,4 +184,24 @@ h2 {
   left: 760px;
 }
 
-/* #############PAGE 3: Visualizations############## */
+/* #############PAGE 3: Data############## */
+
+.display-4 { 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 40px;
+}
+
+.text-data {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  right: 25
+}
+
+/* .dataframe table {
+  position: absolute;
+  left: 25;
+  right: 25;
+} */
