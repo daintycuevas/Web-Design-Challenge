@@ -121,10 +121,6 @@ body {
   margin-left: 40px;
 } 
 
-.Fig1-comparison:hover {
-  border: 3px solid rgb(12, 196, 202);
-}
-
 .Fig1-comparison {
   width: 500px;
   height: 400px;
