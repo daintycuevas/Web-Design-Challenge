@@ -17,11 +17,11 @@
         }
     </style>
     <script>
-$(document).ready(function(){
-    $(".dropdown").hover(function(){
-        var dropdownMenu = $(this).children(".dropdown-menu");
-        if(dropdownMenu.is(":visible")){
-            dropdownMenu.parent().toggleClass("open");
+    $(document).ready(function(){
+        $(".dropdown").hover(function(){
+            var dropdownMenu = $(this).children(".dropdown-menu");
+            if(dropdownMenu.is(":visible")){
+                dropdownMenu.parent().toggleClass("open");
         }
     });
 });     
@@ -29,7 +29,7 @@ $(document).ready(function(){
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light bg-light">
         
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav nav-tabs">
