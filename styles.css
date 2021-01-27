@@ -101,7 +101,7 @@ body {
   background: white;
   width: 1100px;
   height: 1300px;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 100px;
 }
 
@@ -120,6 +120,10 @@ body {
   margin-right: 40px;
   margin-left: 40px;
 } 
+
+.Fig1-comparison:hover {
+  border: 3px solid rgb(12, 196, 202);
+}
 
 .Fig1-comparison {
   width: 500px;
