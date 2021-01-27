@@ -41,7 +41,7 @@ h1 {
 .box-2 {
     background: white;
     width: 350px;
-    height: 90%;
+    height: 450px;
     margin-top: 60px;
     position: absolute;
     margin-bottom: 100px;  
@@ -91,7 +91,7 @@ h1 {
 }
 
 
-/* #############PAGE 2: Visualizations############## */
+/* #############PAGE 2: Comparison############## */
 
 .box-3 {
   background: white;
@@ -186,13 +186,13 @@ h1 {
 
 /* #############PAGE 3: Data############## */
 
-.display-4 { 
+/* .display-4 { 
   font-family: "Times New Roman", Times, serif;
   font-size: 50px;
   font-weight: bold;
   color: rgb(12, 196, 202);
   padding: 40px;
-}
+} */
 
 .text-data {
   font-family: Arial, Helvetica, sans-serif;
