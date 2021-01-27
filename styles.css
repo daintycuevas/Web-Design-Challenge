@@ -41,7 +41,7 @@ h1 {
 .box-2 {
     background: white;
     width: 350px;
-    height: 450px;
+    height: 475px;
     margin-top: 60px;
     position: absolute;
     margin-bottom: 100px;  
@@ -78,7 +78,7 @@ h1 {
   width: 45%;
   height: 40%;
   position: absolute;
-  top: 220px;
+  top: 270px;
   left: 20px;
 }
 
@@ -86,7 +86,7 @@ h1 {
   width: 45%;
   height: 40%;
   position: absolute;
-  top: 220px;
+  top: 270px;
   right: 10px;
 }
 
@@ -101,11 +101,19 @@ h1 {
   margin-bottom: 100px;
 }
 
-/* .my-4 {
+.display-3 { 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 30px;
+}
+
+/* .text {
   font-family: "Arial";
-  font-size: 20px; 
+  font-size: 24px; 
   position: absolute;
-  top: 1000px;
+  top: 800px;
 } */
 
 .Fig1-comparison {
@@ -186,13 +194,13 @@ h1 {
 
 /* #############PAGE 3: Data############## */
 
-/* .display-4 { 
+.display-4 { 
   font-family: "Times New Roman", Times, serif;
   font-size: 50px;
   font-weight: bold;
   color: rgb(12, 196, 202);
-  padding: 40px;
-} */
+  padding: 30px;
+}
 
 .text-data {
   font-family: Arial, Helvetica, sans-serif;
@@ -205,3 +213,124 @@ h1 {
   left: 25;
   right: 25;
 } */
+
+/* #############PAGE 4: Max Temperature############## */
+
+.display-5 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 30px;
+}
+
+.img-temp {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.Fig1-gallery:hover {
+  border: 3px solid rgb(12, 196, 202);
+}
+.Fig1-gallery {
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+
+.Fig2-gallery {
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+}
+
+.Fig3-gallery {
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  top: 270px;
+  left: 20px;
+}
+
+.Fig4-gallery {
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  top: 270px;
+  right: 10px;
+}
+
+/* ul#sub-menu {
+  display: none;
+} */
+  
+ul#sub-menu:hover {
+  display: inline-block; 
+  }
+
+  /* // or display:inline if you want them horizontally positioned */
+
+
+  /* #############PAGE 5: Humidity############## */
+
+.display-6 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 30px;
+}
+
+.img-humid {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.Fig2-gallery:hover {
+  border: 3px solid rgb(12, 196, 202);
+}
+
+/* #############PAGE 6: Wind Speed############## */
+
+.display-7 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 30px;
+}
+
+.img-cloud {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+  
+.Fig3-gallery:hover {
+  border: 3px solid rgb(12, 196, 202);
+}
+/* #############PAGE 7: Wind Speed############## */
+
+.display-8 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(12, 196, 202);
+  padding: 30px;
+}
+  
+.img-wspeed {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+  
+.Fig4-gallery:hover {
+  border: 3px solid rgb(12, 196, 202);
+}
